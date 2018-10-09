@@ -1,0 +1,132 @@
+INFO:root:Application Started
+Traceback (most recent call last):
+  File "/anaconda3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/anaconda3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/anaconda3/lib/python3.6/site-packages/visdom/server.py", line 1063, in <module>
+    main()
+  File "/anaconda3/lib/python3.6/site-packages/visdom/server.py", line 1058, in main
+    start_server(port=FLAGS.port, env_path=FLAGS.env_path, readonly=FLAGS.readonly, print_func=print_func)
+  File "/anaconda3/lib/python3.6/site-packages/visdom/server.py", line 1028, in start_server
+    ioloop.IOLoop.instance().start()
+  File "/anaconda3/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 127, in start
+    self.asyncio_loop.run_forever()
+  File "/anaconda3/lib/python3.6/asyncio/base_events.py", line 422, in run_forever
+    self._run_once()
+  File "/anaconda3/lib/python3.6/asyncio/base_events.py", line 1396, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/anaconda3/lib/python3.6/selectors.py", line 577, in select
+    kev_list = self._kqueue.control(None, max_ev, timeout)
+KeyboardInterrupt
+Downloading scripts. It might take a while.
+It's Alive!
+You can navigate to http://localhost:8097
+INFO:root:Application Started
+INFO:tornado.access:200 GET / (127.0.0.1) 20.98ms
+INFO:tornado.access:200 GET /static/css/react-grid-layout-styles.css?v=7dc8934d2f9ac5303b8f0bb1148152a0 (127.0.0.1) 15.36ms
+INFO:tornado.access:200 GET /static/js/react-react.min.js?v=bca103da5b5404d93783ccf73e0e9d1e (127.0.0.1) 9.20ms
+INFO:tornado.access:200 GET /static/js/bootstrap.min.js?v=5869c96cc8f19086aee625d670d741f9 (127.0.0.1) 4.49ms
+INFO:tornado.access:200 GET /static/css/react-resizable-styles.css?v=9f91a8dbf4d8f7ef1399e625660405f4 (127.0.0.1) 3.64ms
+INFO:tornado.access:200 GET /static/css/bootstrap.min.css?v=ec3bb52a00e176a7181d454dffaea219 (127.0.0.1) 9.34ms
+INFO:tornado.access:200 GET /static/js/jquery.min.js?v=e071abda8fe61194711cfc2ab99fe104 (127.0.0.1) 10.69ms
+INFO:tornado.access:200 GET /static/fonts/layout_bin_packer?v=6c46683ed70fbb1443caf3531243836d (127.0.0.1) 9.20ms
+INFO:tornado.access:200 GET /static/js/react-dom.min.js?v=950495cc51ccb90612cf0fe0bb44f8f3 (127.0.0.1) 12.57ms
+INFO:tornado.access:200 GET /static/js/mathjax-MathJax.js?v=49565b9ce89c64da075a5a39969b366e (127.0.0.1) 8.77ms
+INFO:tornado.access:200 GET /static/css/style.css?v=fea4bc2a2e852e7674df8cd9764c5c69 (127.0.0.1) 2.98ms
+INFO:tornado.access:200 GET /static/js/main.js?v=124cf8f8086c9ff5a483f87179d1ea8d (127.0.0.1) 9.70ms
+INFO:tornado.access:200 GET /static/js/plotly-plotly.min.js?v=bf5e3bb886fbbf2efc30244cf08df7d2 (127.0.0.1) 20.95ms
+INFO:tornado.access:200 GET /static/fonts/glyphicons-halflings-regular.woff2 (127.0.0.1) 2.88ms
+INFO:tornado.access:101 GET /socket (127.0.0.1) 0.73ms
+INFO:root:Opened new socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 1.85ms
+INFO:tornado.access:200 POST /env/main (127.0.0.1) 0.80ms
+INFO:tornado.access:200 GET /favicon.png (127.0.0.1) 3.36ms
+INFO:tornado.access:200 GET /extensions/MathMenu.js?V=2.7.1 (127.0.0.1) 3.21ms
+INFO:tornado.access:200 GET /extensions/MathZoom.js?V=2.7.1 (127.0.0.1) 5.48ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 0.52ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /events (127.0.0.1) 347.78ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.80ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.68ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.70ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.71ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.06ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.93ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 8.06ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.88ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 4.74ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.74ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.69ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.83ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.77ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.73ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.73ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.73ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.75ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.07ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.74ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.80ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 6.41ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.71ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.69ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.65ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 9.42ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.86ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.96ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.80ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.85ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.62ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.11ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.75ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.93ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.84ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.90ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.36ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.72ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.99ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.88ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.77ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.71ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.90ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.71ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.81ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.85ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.81ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.73ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.97ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.07ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.31ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.77ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.59ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.91ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.83ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 4.25ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.44ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.84ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.94ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.05ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.19ms
+INFO:tornado.access:101 GET /vis_socket (127.0.0.1) 16.92ms
+INFO:root:Opened visdom socket from ip: 127.0.0.1
+INFO:tornado.access:200 POST /events (127.0.0.1) 2.57ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 2.85ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.67ms
+INFO:root:from web client: {"cmd":"close","data":"window_36ad04ddc286d2","eid":"main"}
+INFO:root:closing window window_36ad04ddc286d2
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.69ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.71ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.68ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.75ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.77ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.69ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.71ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.46ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.87ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.78ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.92ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.12ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.75ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.70ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 0.71ms
+INFO:tornado.access:200 POST /events (127.0.0.1) 1.10ms
